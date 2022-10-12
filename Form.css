@@ -1,0 +1,930 @@
+*{
+margin: 0;
+padding: 0;
+}
+@media screen and (min-width:1024px) {
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(45deg, 	#0000ff, #00bfff); */
+    background: linear-gradient(
+    109.31deg,
+    #6b31e5 3.9%,
+    #2f82cf 61.2%,
+    #2f82cf 68.35%,
+    #92bde6 76.79%,
+    #4bc7b0 83.39%
+  );
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 20%;
+    height: 90vh;
+    background: #3a2e55;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.right{
+    width: 40%;
+    height: 90vh;
+    background: #fff;
+    border-radius: 0px 10px 10px 0px;
+}
+.cercle1{
+    height: 50px; 
+		width: 50px; 
+		background-color: rgb(48, 192, 103);
+		border: 1px solid rgba(0, 0, 0, 1);
+		border-radius: 50%; 
+       
+        
+}
+.cercle1 p{
+    padding-top: 14px;
+    padding-left:15px;
+    color: white;
+}
+.cercle2{
+    height: 50px; 
+		width: 50px; 
+		background-color: rgb(236, 236, 243);
+		border: 1px solid rgba(0, 0, 0, 1);
+		border-radius: 50%; 
+        
+}
+.cercle2 p{
+    padding-top: 14px;
+    padding-left:15px;
+}
+.cercle3{
+    height: 50px; 
+		width: 50px; 
+		background-color: rgb(236, 236, 243);
+		border: 1px solid rgba(0, 0, 0, 1);
+		border-radius: 50%;      
+}
+.cercle3 p{
+    padding-top: 14px; 
+    padding-left:15px;
+}
+.cercle4{
+        height: 50px; 
+		width: 50px; 
+		background-color: rgb(48, 192, 103);
+		border-radius: 50%; 
+        margin-left: 350px;
+        margin-top: 12px;
+}
+.cercle4 p{
+    padding-top: 14px;
+     padding-left:15px;
+     color: white;
+}
+.text1{
+    /* margin-left: 86px;
+    margin-top: -40px ; */
+    color: white;
+    width: 150px;
+}
+.text2{
+    /* margin-left: 86px;
+    margin-top: -40px; */
+    color: white;
+    width: 150px;
+}
+.text3{
+    /* margin-left: 86px;
+    margin-top: -40px; */
+    color: white;
+    width: 150px;
+}
+.title1 h1{
+    margin-top: 35px;
+    text-align: center;
+}
+.paragraph1{
+    margin-top: 16px;
+    text-align: center;
+}
+.Form{
+    margin-left: 26px;
+}
+fieldset {
+    width: fit-content;
+}
+fieldset input{
+    border: none;
+}
+fieldset input:focus{
+    outline: none;
+}
+.Form1{
+    margin-top: 20px;
+    margin-left: -66px;
+    
+}
+.Form2{
+    margin-top: 20px;
+}
+.Form3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Form4{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.toto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Form1 input{
+    text-indent: 10px;
+}
+.Form2 input{
+    text-indent: 10px;
+    
+}
+.Form3 input{
+    text-indent: 10px;
+    width: 400px;
+    height: 25px;
+}
+.Form3A{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.Form3A input{
+    width: 400px;
+    height: 30px;
+}
+.Form4 input{
+    text-indent: 10px;
+    width: 400px;
+    height: 25px;
+}
+
+.left-item{
+    border: 0.1px solid white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.toto1{
+    margin-top: 15px;
+}
+.FormA input{
+    height:36px;
+    width:60px;
+}
+.FormB input{
+    height:36px;
+    width:70px;
+}
+.toto2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-left: -60px;
+}
+.date{
+    width: 75px;
+    margin-right: 68px;
+}
+.toto3{
+    margin-top: 25px;
+}
+.toto3 input{
+    border: 1px solid black;
+}
+.lolo{
+    display: flex;
+}
+.lolo label{
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.lolo fieldset{
+    margin-left: -16px;
+}
+
+.birth-text{
+    margin-left: 10px;
+}
+.toto Form1{
+    border-radius: 2px 2px 2px 2px;
+}
+}
+/* ecran Iphone */
+@media screen and (min-width:320px)and (max-width: 425px) {
+    .container{
+        width: 100vw;
+        height: 100vh;
+        /* background: linear-gradient(45deg, 	#0000ff, #00bfff); */
+        background: linear-gradient(
+        109.31deg,
+        #6b31e5 3.9%,
+        #2f82cf 61.2%,
+        #2f82cf 68.35%,
+        #92bde6 76.79%,
+        #4bc7b0 83.39%
+      );
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 30%;
+        height: 75vh;
+        background: #3a2e55;
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .right{
+        width: 50%;
+        height: 75vh;
+        background: #fff;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .cercle1{
+            height: 40px; 
+            width: 40px; 
+            background-color: rgb(48, 192, 103);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%; 
+            /* margin-left: 15px; */
+           
+            
+    }
+    .cercle1 p{
+        /* padding-top: 4px;
+        padding-left:7px; */
+        color: white;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .cercle2{
+        height: 40px; 
+            width: 40px; 
+            background-color: rgb(236, 236, 243);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%; 
+            
+    }
+    .cercle2 p{
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .cercle3{
+        height: 40px; 
+            width: 40px; 
+            background-color: rgb(236, 236, 243);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%;      
+    }
+    .cercle3 p{
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .cercle4{
+            height: 50px; 
+            width: 50px; 
+            background-color: rgb(48, 192, 103);
+            border-radius: 50%; 
+            margin-left: 103px;
+            margin-top: 15px;
+    }
+    .cercle4 p{
+        /* margin-left: -140px; */
+    }
+    .text1{
+        /* margin-left: 86px;
+        margin-top: -40px ; */
+        color: white;
+        width: 100px;
+    }
+    .text2{
+        /* margin-left: 86px;
+        margin-top: -40px; */
+        color: white;
+        width: 100px;
+    }
+    .text3{
+        /* margin-left: 86px;
+        margin-top: -40px; */
+        color: white;
+        width: 100px;
+    }
+    .title1 h1{
+        
+        margin-top: 20px;
+        text-align: center;
+    }
+    .paragraph1{
+        margin-top: 16px;
+        text-align: center;
+    }
+    .Form{
+        margin-left: 26px;
+    }
+    fieldset {
+        width: fit-content;
+    }
+    fieldset input{
+        border: none;
+    }
+    fieldset input:focus{
+        outline: none;
+    }
+    .Form1{
+        margin-top: 20px;
+        margin-left: -17px;
+
+        
+    }
+    .Form2{
+        margin-top: 20px;
+    }
+    .Form3{
+        margin-top: 20px;
+        margin-left: -17px;
+    }
+    .Form4{
+        margin-top: 20px;
+        margin-left: -17px;
+    }
+    .toto{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .FormA input{
+        height:16px;
+        width:15px;
+        margin-left: 10px;
+    }
+    .FormB input{
+        height:16px;
+        width:10px;
+    }
+    .Form1 input{
+        text-indent: 10px;
+        width: 40px;
+    }
+    .Form2 input{
+        text-indent: 10px;
+        width: 40px;
+    }
+    .Form3 input{
+        text-indent: 10px;
+        width: 168px;
+    }
+    .Form3A{
+        margin-top: 15px;
+        margin-left: -14px
+    }
+    .Form3A input{
+        /* height:36px; */
+        width:168px;
+        margin-top: 5px;
+       
+    }
+    .Form4 input{
+        text-indent: 10px;
+        width: 168px;
+    }
+    
+    .left-item{
+        border: 0.1px solid white;
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .toto1{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .toto2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+    .date{
+        width: 75px;
+        margin-right: 68px;
+    }
+    .toto3{
+        margin-top: 25px;
+    }
+    .toto3 input{
+        border: 1px solid black;
+    }
+    .lolo{
+        display: flex;
+    }
+    .lolo label{
+        margin-top: 22px;
+        margin-left: 5px;
+    }
+    .lolo fieldset{
+        margin-left: -16px;
+    }
+    
+    .birth-text{
+        margin-left: -15px;
+    }
+    .toto Form1{
+        border-radius: 2px 2px 2px 2px;
+    }
+}
+ /* ecran PC et Tablette */
+ @media screen and (min-width:641px)and (max-width: 1007px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        /* background: linear-gradient(45deg, 	#0000ff, #00bfff); */
+        background: linear-gradient(
+        109.31deg,
+        #6b31e5 3.9%,
+        #2f82cf 61.2%,
+        #2f82cf 68.35%,
+        #92bde6 76.79%,
+        #4bc7b0 83.39%
+      );
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 30%;
+        height: 75vh;
+        background: #3a2e55;
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .right{
+        width: 50%;
+        height: 75vh;
+        background: #fff;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .cercle1{
+            height: 70px; 
+            width: 70px; 
+            background-color: rgb(48, 192, 103);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%; 
+            /* margin-left: 15px; */
+           
+            
+    }
+    .cercle1 p{
+        /* padding-top: 4px;
+        padding-left:7px; */
+        color: white;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .cercle2{
+        height: 70px; 
+            width: 70px; 
+            background-color: rgb(236, 236, 243);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%; 
+            
+    }
+    .cercle2 p{
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .cercle3{
+        height: 70px; 
+            width: 70px; 
+            background-color: rgb(236, 236, 243);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%;      
+    }
+    .cercle3 p{
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .cercle4{
+            height: 70px; 
+            width: 70px; 
+            background-color: rgb(48, 192, 103);
+            border-radius: 50%; 
+            margin-left: 193px;
+            margin-top: 45px;
+    }
+    .cercle4 p{
+        /* margin-left: -140px; */
+    }
+    .text1{
+        /* margin-left: 86px;
+        margin-top: -40px ; */
+        color: white;
+        width: 100px;
+    }
+    .text2{
+        /* margin-left: 86px;
+        margin-top: -40px; */
+        color: white;
+        width: 100px;
+    }
+    .text3{
+        /* margin-left: 86px;
+        margin-top: -40px; */
+        color: white;
+        width: 100px;
+    }
+    .title1 h1{
+        
+        margin-top: 20px;
+        text-align: center;
+    }
+    .paragraph1{
+        margin-top: 16px;
+        text-align: center;
+    }
+    .Form{
+        margin-left: 26px;
+    }
+    fieldset {
+        width: fit-content;
+    }
+    fieldset input{
+        border: none;
+    }
+    fieldset input:focus{
+        outline: none;
+    }
+    .Form1{
+        margin-top: 50px;
+        margin-left: -79px;
+        width: 105px;
+
+        
+    }
+    .Form1 input{
+        height: 30px;
+        
+    }
+    .Form2{
+        margin-top: 50px;
+        width: 105px;
+    }
+    .Form3{
+        margin-top: 70px;
+        margin-left: -17px;
+        height: 46px;
+    }
+    .Form4{
+        margin-top: 70px;
+        margin-left: -17px;
+        height: 46px;
+    }
+    .toto{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .FormA input{
+        height:36px;
+        width:45px;
+        margin-left: 10px;
+    }
+    .FormB input{
+        height:16px;
+        width:55px;
+    }
+    .Form1 input{
+        text-indent: 10px;
+        width: 80px;
+    }
+    .Form2 input{
+        text-indent: 10px;
+        width: 80px;
+    }
+    .Form3 input{
+        text-indent: 10px;
+        width: 268px;
+    }
+    .Form3A{
+        margin-top: 30px;
+        margin-left: -14px
+    }
+    .Form3A input{
+        height:36px;
+        width:268px;
+        margin-top: 5px;
+       
+    }
+    .Form4 input{
+        text-indent: 10px;
+        width: 268px;
+    }
+    
+    .left-item{
+        border: 0.1px solid white;
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .toto1{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .toto2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        margin-left: -65px;
+    }
+    .date{
+        width: 75px;
+        margin-right: 68px;
+    }
+    .toto3{
+        margin-top: 25px;
+    }
+    .toto3 input{
+        border: 1px solid black;
+    }
+    .lolo{
+        display: flex;
+    }
+    .lolo label{
+        margin-top: 22px;
+        margin-left: 5px;
+    }
+    .lolo fieldset{
+        margin-left: -16px;
+    }
+    
+    .birth-text{
+        margin-left: -15px;
+    }
+    .toto Form1{
+        border-radius: 2px 2px 2px 2px;
+    }
+ }
+ /* large ecran */
+ @media screen and (min-width:800px)and (max-width: 1024px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        /* background: linear-gradient(45deg, 	#0000ff, #00bfff); */
+        background: linear-gradient(
+        109.31deg,
+        #6b31e5 3.9%,
+        #2f82cf 61.2%,
+        #2f82cf 68.35%,
+        #92bde6 76.79%,
+        #4bc7b0 83.39%
+      );
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 30%;
+        height: 75vh;
+        background: #3a2e55;
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .right{
+        width: 50%;
+        height: 75vh;
+        background: #fff;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .cercle1{
+            height: 70px; 
+            width: 70px; 
+            background-color: rgb(48, 192, 103);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%; 
+            /* margin-left: 15px; */
+           
+            
+    }
+    .cercle1 p{
+        /* padding-top: 4px;
+        padding-left:7px; */
+        color: white;
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+    .cercle2{
+        height: 70px; 
+            width: 70px; 
+            background-color: rgb(236, 236, 243);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%; 
+            
+    }
+    .cercle2 p{
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+    .cercle3{
+        height: 70px; 
+            width: 70px; 
+            background-color: rgb(236, 236, 243);
+            border: 1px solid rgba(0, 0, 0, 1);
+            border-radius: 50%;      
+    }
+    .cercle3 p{
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+    .cercle4{
+            height: 70px; 
+            width: 70px; 
+            background-color: rgb(48, 192, 103);
+            border-radius: 50%; 
+            margin-left: 363px;
+            margin-top: 10px;
+    }
+    .cercle4 p{
+        /* margin-left: -140px; */
+    }
+    .text1{
+        /* margin-left: 86px;
+        margin-top: -40px ; */
+        color: white;
+        width: 100px;
+    }
+    .text2{
+        /* margin-left: 86px;
+        margin-top: -40px; */
+        color: white;
+        width: 100px;
+    }
+    .text3{
+        /* margin-left: 86px;
+        margin-top: -40px; */
+        color: white;
+        width: 100px;
+    }
+    .title1 h1{
+        
+        margin-top: 20px;
+        text-align: center;
+    }
+    .paragraph1{
+        margin-top: 16px;
+        text-align: center;
+    }
+    .Form{
+        margin-left: 26px;
+    }
+    fieldset {
+        width: fit-content;
+    }
+    fieldset input{
+        border: none;
+    }
+    fieldset input:focus{
+        outline: none;
+    }
+    .Form1{
+        margin-top: 50px;
+        margin-left: -79px;
+        width: 185px;
+
+        
+    }
+    .Form1 input{
+        height: 30px;
+        
+    }
+    .Form2{
+        margin-top: 50px;
+        width: 185px;
+    }
+    .Form3{
+        margin-top: 30px;
+        margin-left: -17px;
+        height: 46px;
+    }
+    .Form4{
+        margin-top: 30px;
+        margin-left: -17px;
+        height: 46px;
+    }
+    .toto{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .FormA input{
+        height:36px;
+        width:45px;
+        margin-left: 10px;
+    }
+    .FormB input{
+        height:16px;
+        width:55px;
+    }
+    .Form1 input{
+        text-indent: 10px;
+        width: 80px;
+    }
+    .Form2 input{
+        text-indent: 10px;
+        width: 80px;
+    }
+    .Form3 input{
+        text-indent: 10px;
+        width: 438px;
+    }
+    .Form3A{
+        margin-top: 30px;
+        margin-left: -14px
+    }
+    .Form3A input{
+        height:36px;
+        width:438px;
+        margin-top: 5px;
+       
+    }
+    .Form4 input{
+        text-indent: 10px;
+        width: 438px;
+    }
+    
+    .left-item{
+        border: 0.1px solid white;
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .toto1{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .toto2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        margin-left: -119px;
+    }
+    .date{
+        width: 75px;
+        margin-right: 68px;
+    }
+    .toto3{
+        margin-top: 25px;
+    }
+    .toto3 input{
+        border: 1px solid black;
+    }
+    .lolo{
+        display: flex;
+    }
+    .lolo label{
+        margin-top: 22px;
+        margin-left: 5px;
+    }
+    .lolo fieldset{
+        margin-left: -16px;
+    }
+    
+    .birth-text{
+        margin-left: -15px;
+    }
+    .toto Form1{
+        border-radius: 2px 2px 2px 2px;
+    }
+ }
+ /* large */
+ 
